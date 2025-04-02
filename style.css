@@ -1,0 +1,181 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul{
+    list-style:none;
+}
+
+button
+{
+    cursor: pointer;
+border: none;
+background: none;
+}
+header
+{
+    background:rgb(115, 212, 251);
+    
+}
+.nav-logo img
+{
+    
+    height:50px;
+    width: auto;
+}
+header .navbar
+{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .nav-logo .logo-text
+{
+    color: white;
+}
+.navbar .nav-menu
+{
+
+    display: flex;
+    gap: 10px;
+}
+.nav-links
+{padding: 10px 18px;
+    color: white;
+text-decoration: none;
+
+}
+.nav-links:hover{
+    
+    border-radius: 20px;
+    color: black ;
+    transition: .3s;
+}
+
+.hero-section
+
+{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(172, 220, 238,0.6);
+    display: flex;
+    justify-content: space-around;
+   /* margin: 40px 0px 20px; */
+ 
+   gap: 10px;
+   
+}
+.content-1
+{
+    height:500px;
+    width:40%;
+    /* border-color: black;
+    border: solid; */
+    margin: 40px 0px 20px;
+    text-align: center;
+    padding: 20px;
+}
+.right
+{
+    height:500PX;
+    width: 78%;
+
+    border-color: rgb(91, 85, 77);
+    border: solid;
+    margin: 40px 60px 20px  ;
+    background-image:url(smart_speakers.png);
+    background-size: cover;
+    border-radius: 120px;
+}
+.feature
+{
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.ff li
+{
+    padding-top: 30px;
+    color: black;
+}
+.ff p{
+    padding-top: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn
+{
+    margin: 30px;
+    color: black;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+   border: solid;
+   border-color: rgb(50, 10, 253);
+}
+.btn:hover
+{
+    border-radius: 20PX;
+    background-color: whitesmoke;
+}
+
+
+.container
+{
+    
+    display: flex;
+   justify-content: center;
+  
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    gap:50px;
+}
+
+.card
+{
+  border-radius: 15px;
+    height: 300px;
+    width: 350px;
+   
+    /* overflow: hidden; */
+}
+
+.card img
+{
+    height: 350px;  
+    width: 360px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.text
+{   background-color: rgb(172, 220, 238,0.6);
+    padding: 40px;
+    text-align: justify;
+    border-radius: 80px;
+}
+.button
+{
+    color: black;
+    background-color: gray;
+    transition: 0.5s;
+    margin:15px;
+    padding: 8px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.button:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
+.card img:hover{
+    transform:scale(1.1)rotate(-1deg);
+    box-shadow: 5px 8px 10px;
+}
